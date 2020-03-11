@@ -61,7 +61,7 @@ void loop() {
 			count ++;
 		}
 	}
-	length = length & 0x07ff; //isolate only the least significant 10 bits
+	length = length & 0x03ff; //isolate only the least significant 10 bits
  
 	//identify the message type
 	count = 0;
